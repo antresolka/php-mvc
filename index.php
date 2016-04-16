@@ -11,5 +11,10 @@
 		$action = 'index';
 	}
 
-	require_once 'views/layout.php';
+	if (isset($_GET['json'])) {
+		require_once 'views/routes.php';
+	}
+	else {
+		require_once 'views/layout.php';
+	}
 ?>

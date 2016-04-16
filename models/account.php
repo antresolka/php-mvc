@@ -8,21 +8,5 @@
 			$this->name = $name;
 			$this->surname = $surname;
 		}
-		
-		public function getName() {
-			return $name;
-		}
-		
-		public function setName($name) {
-			$this->name = $name;
-		}
-		
-		public function getSurname() {
-			return $surname;
-		}
-		
-		public function setSurname($surname) {
-			$this->surname = $surname;
-		}
 	}
 ?>
