@@ -1,0 +1,1 @@
+# PHP MVC Sample skeleton
